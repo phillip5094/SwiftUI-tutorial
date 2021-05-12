@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D90297F6264C1FCA006A6CFA /* Ch02_01.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90297F5264C1FCA006A6CFA /* Ch02_01.swift */; };
+		D90297F8264C2825006A6CFA /* Ch02_02.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90297F7264C2825006A6CFA /* Ch02_02.swift */; };
 		D99DA48C2649838E0093512D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99DA48B2649838E0093512D /* AppDelegate.swift */; };
 		D99DA48E2649838E0093512D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99DA48D2649838E0093512D /* SceneDelegate.swift */; };
 		D99DA4902649838E0093512D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99DA48F2649838E0093512D /* ContentView.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D90297F5264C1FCA006A6CFA /* Ch02_01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch02_01.swift; sourceTree = "<group>"; };
+		D90297F7264C2825006A6CFA /* Ch02_02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch02_02.swift; sourceTree = "<group>"; };
 		D99DA4882649838E0093512D /* SwiftUI-Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D99DA48B2649838E0093512D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D99DA48D2649838E0093512D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D90297F4264C1F9D006A6CFA /* Ch02 */ = {
+			isa = PBXGroup;
+			children = (
+				D90297F5264C1FCA006A6CFA /* Ch02_01.swift */,
+				D90297F7264C2825006A6CFA /* Ch02_02.swift */,
+			);
+			path = Ch02;
+			sourceTree = "<group>";
+		};
 		D99DA47F2649838E0093512D = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +69,7 @@
 		D99DA48A2649838E0093512D /* SwiftUI-Tutorial */ = {
 			isa = PBXGroup;
 			children = (
+				D90297F4264C1F9D006A6CFA /* Ch02 */,
 				D99DA48B2649838E0093512D /* AppDelegate.swift */,
 				D99DA48D2649838E0093512D /* SceneDelegate.swift */,
 				D99DA48F2649838E0093512D /* ContentView.swift */,
@@ -146,7 +160,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D99DA48C2649838E0093512D /* AppDelegate.swift in Sources */,
+				D90297F6264C1FCA006A6CFA /* Ch02_01.swift in Sources */,
 				D99DA48E2649838E0093512D /* SceneDelegate.swift in Sources */,
+				D90297F8264C2825006A6CFA /* Ch02_02.swift in Sources */,
 				D99DA4902649838E0093512D /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
