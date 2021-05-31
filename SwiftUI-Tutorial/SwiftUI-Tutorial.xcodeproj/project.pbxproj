@@ -20,6 +20,7 @@
 		D99DA4952649838F0093512D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D99DA4942649838F0093512D /* Preview Assets.xcassets */; };
 		D99DA4982649838F0093512D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D99DA4962649838F0093512D /* LaunchScreen.storyboard */; };
 		D9BA4D0E26510C7400790E23 /* Ch03_01.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BA4D0D26510C7400790E23 /* Ch03_01.swift */; };
+		D9C2DFE326650DD60033ADD6 /* Ch05_01.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C2DFE226650DD60033ADD6 /* Ch05_01.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		D99DA4972649838F0093512D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D99DA4992649838F0093512D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9BA4D0D26510C7400790E23 /* Ch03_01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch03_01.swift; sourceTree = "<group>"; };
+		D9C2DFE226650DD60033ADD6 /* Ch05_01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch05_01.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,15 +91,16 @@
 		D99DA48A2649838E0093512D /* SwiftUI-Tutorial */ = {
 			isa = PBXGroup;
 			children = (
-				D90297F4264C1F9D006A6CFA /* Ch02 */,
-				D9BA4D0C26510C5F00790E23 /* Ch03 */,
-				D98F45222653AFB100753BC7 /* Ch04 */,
 				D99DA48B2649838E0093512D /* AppDelegate.swift */,
 				D99DA48D2649838E0093512D /* SceneDelegate.swift */,
 				D99DA48F2649838E0093512D /* ContentView.swift */,
 				D99DA4912649838F0093512D /* Assets.xcassets */,
 				D99DA4962649838F0093512D /* LaunchScreen.storyboard */,
 				D99DA4992649838F0093512D /* Info.plist */,
+				D90297F4264C1F9D006A6CFA /* Ch02 */,
+				D9BA4D0C26510C5F00790E23 /* Ch03 */,
+				D98F45222653AFB100753BC7 /* Ch04 */,
+				D9C2DFE126650DC30033ADD6 /* Ch05 */,
 				D99DA4932649838F0093512D /* Preview Content */,
 			);
 			path = "SwiftUI-Tutorial";
@@ -118,6 +121,14 @@
 				D98F452026537B6800753BC7 /* Ch03_02.swift */,
 			);
 			path = Ch03;
+			sourceTree = "<group>";
+		};
+		D9C2DFE126650DC30033ADD6 /* Ch05 */ = {
+			isa = PBXGroup;
+			children = (
+				D9C2DFE226650DD60033ADD6 /* Ch05_01.swift */,
+			);
+			path = Ch05;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9C2DFE326650DD60033ADD6 /* Ch05_01.swift in Sources */,
 				D98F45262653C0A500753BC7 /* Ch04_02.swift in Sources */,
 				D99DA48C2649838E0093512D /* AppDelegate.swift in Sources */,
 				D90297F6264C1FCA006A6CFA /* Ch02_01.swift in Sources */,
