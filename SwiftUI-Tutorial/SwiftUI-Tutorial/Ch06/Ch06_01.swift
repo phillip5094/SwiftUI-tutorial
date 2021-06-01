@@ -20,7 +20,7 @@ private extension Ch06_01 {
         var body: some View {
             Button(framework) {
                 // Cannot assign to property: 'self' is immutable
-                self.framework = "SwiftUI"  // 버튼 클릭 시 framework 값을 변경하고 싶지만 컴파일 에러 발생
+//                self.framework = "SwiftUI"  // 버튼 클릭 시 framework 값을 변경하고 싶지만 컴파일 에러 발생
             }
         }
     }
