@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		D90297F6264C1FCA006A6CFA /* Ch02_01.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90297F5264C1FCA006A6CFA /* Ch02_01.swift */; };
 		D90297F8264C2825006A6CFA /* Ch02_02.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90297F7264C2825006A6CFA /* Ch02_02.swift */; };
+		D90D1191266936610052266F /* Ch08_01.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90D1190266936610052266F /* Ch08_01.swift */; };
+		D90D11932669412A0052266F /* Ch08_02.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90D11922669412A0052266F /* Ch08_02.swift */; };
 		D915C21E2666863100EF6986 /* Ch07_01.swift in Sources */ = {isa = PBXBuildFile; fileRef = D915C21D2666863100EF6986 /* Ch07_01.swift */; };
 		D915C2202666922100EF6986 /* Ch07_02.swift in Sources */ = {isa = PBXBuildFile; fileRef = D915C21F2666922100EF6986 /* Ch07_02.swift */; };
 		D915C22226669F7000EF6986 /* Ch07_03.swift in Sources */ = {isa = PBXBuildFile; fileRef = D915C22126669F7000EF6986 /* Ch07_03.swift */; };
@@ -31,6 +33,8 @@
 /* Begin PBXFileReference section */
 		D90297F5264C1FCA006A6CFA /* Ch02_01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch02_01.swift; sourceTree = "<group>"; };
 		D90297F7264C2825006A6CFA /* Ch02_02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch02_02.swift; sourceTree = "<group>"; };
+		D90D1190266936610052266F /* Ch08_01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch08_01.swift; sourceTree = "<group>"; };
+		D90D11922669412A0052266F /* Ch08_02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch08_02.swift; sourceTree = "<group>"; };
 		D915C21D2666863100EF6986 /* Ch07_01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch07_01.swift; sourceTree = "<group>"; };
 		D915C21F2666922100EF6986 /* Ch07_02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch07_02.swift; sourceTree = "<group>"; };
 		D915C22126669F7000EF6986 /* Ch07_03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch07_03.swift; sourceTree = "<group>"; };
@@ -70,6 +74,15 @@
 				D90297F7264C2825006A6CFA /* Ch02_02.swift */,
 			);
 			path = Ch02;
+			sourceTree = "<group>";
+		};
+		D90D118D2669364C0052266F /* Ch08 */ = {
+			isa = PBXGroup;
+			children = (
+				D90D1190266936610052266F /* Ch08_01.swift */,
+				D90D11922669412A0052266F /* Ch08_02.swift */,
+			);
+			path = Ch08;
 			sourceTree = "<group>";
 		};
 		D915C21C2666861E00EF6986 /* Ch07 */ = {
@@ -123,6 +136,7 @@
 				D9C2DFE126650DC30033ADD6 /* Ch05 */,
 				D9C2DFE7266529E00033ADD6 /* Ch06 */,
 				D915C21C2666861E00EF6986 /* Ch07 */,
+				D90D118D2669364C0052266F /* Ch08 */,
 				D99DA4932649838F0093512D /* Preview Content */,
 			);
 			path = "SwiftUI-Tutorial";
@@ -234,6 +248,7 @@
 			files = (
 				D915C21E2666863100EF6986 /* Ch07_01.swift in Sources */,
 				D9C2DFE326650DD60033ADD6 /* Ch05_01.swift in Sources */,
+				D90D11932669412A0052266F /* Ch08_02.swift in Sources */,
 				D9C2DFE9266529EF0033ADD6 /* Ch06_01.swift in Sources */,
 				D915C2202666922100EF6986 /* Ch07_02.swift in Sources */,
 				D98F45262653C0A500753BC7 /* Ch04_02.swift in Sources */,
@@ -247,6 +262,7 @@
 				D915C22226669F7000EF6986 /* Ch07_03.swift in Sources */,
 				D9BA4D0E26510C7400790E23 /* Ch03_01.swift in Sources */,
 				D99DA4902649838E0093512D /* ContentView.swift in Sources */,
+				D90D1191266936610052266F /* Ch08_01.swift in Sources */,
 				D98F45242653AFBF00753BC7 /* Ch04_01.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
